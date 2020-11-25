@@ -305,18 +305,9 @@ const Home = () => {
                 <Container>
                     <Flex
                         my={['-15px', '-15px', '-20px']}
-                        mx={'-10px'}
                         flexWrap={'wrap'}
                         width={'100%'}
                     >
-                        {/* {features.map((feature, index) => (
-                            <Column width={[1, 1, 1, 6 / 12]} key={index}>
-                                <FeatureBox
-                                    title={feature.title}
-                                    description={feature.description}
-                                />
-                            </Column>
-                        ))} */}
                         <Column width={[1, 1, 1, 6 / 12]}>
                             <FeatureBox
                                 title="Total RBX Liquidity"
