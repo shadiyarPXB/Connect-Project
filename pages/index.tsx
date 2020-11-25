@@ -284,7 +284,7 @@ const Home = () => {
                         mt={['20px', '20px', '20px']}
                     >
                         <Text.p mt={0} fontSize={[0, 0, 2]}>
-                            CONNECTx and Connect are DAO tokens and governed by community. CONNECTx is only obtainable through liquidity mining.
+                            CONNECTx, Connect, and Rubix are DAO tokens and governed by community. CONNECTx is only obtainable through liquidity mining.
                         </Text.p>
                         <Text.p mt={0} fontSize={[0, 0, 2]}>
                         Every member who has enough tokens to vote can influence and suggest ideas which will have an impact on the network.
@@ -686,7 +686,7 @@ const Home = () => {
                                                 color="#535353"
                                             >
                                                 <strong>Connect public bonused presale</strong>{' '}
-                                                will take place on November 27th, 2020 15:00 UTC. We will be giving extra bonus up to 300 CONNECTx (CTx) for first round participants!!!
+                                                will take place on November 27th, 2020 15:00 UTC. We will be giving extra bonus with up to 300 CONNECTx (CTx) for first round participants!!!
                                             </Text.p>
                                         </Box>
                                     </Flex>
