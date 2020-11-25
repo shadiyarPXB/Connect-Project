@@ -35,7 +35,7 @@ const FeatureBox = ({ title, description, img }) => {
                 flexWrap="wrap"
             >
                 <CustomHeading
-                    as={'h2'}
+                    as={'h3'}
                     color={'#DFDFDF'}
                     mb={['5px', '5px', '10px']}
                     width={'100%'}
