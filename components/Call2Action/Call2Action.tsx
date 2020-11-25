@@ -33,7 +33,7 @@ const Call2Action = (props) => {
                 alignItems={'center'}
                 justifyContent={['center', 'center', 'flex-end']}
             >
-                <CustomButton width={['100%', '100%', 'auto']}>
+                <CustomButton width={['100%', '100%', 'auto']} href="https://t.me/ConnectxProject">
                     Join Telegram
                 </CustomButton>
             </Flex>
