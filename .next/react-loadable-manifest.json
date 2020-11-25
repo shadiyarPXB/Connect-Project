@@ -1,0 +1,18 @@
+{
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ],
+  "@rimble/icons": [
+    {
+      "id": "./node_modules/@rimble/icons/es/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/@rimble/icons/index.es.js",
+      "file": "static/chunks/1.js"
+    }
+  ]
+}
