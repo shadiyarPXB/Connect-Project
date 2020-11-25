@@ -201,7 +201,7 @@ function Header() {
                         <Link href="/">
                             <a onClick={onClickHandler}>Dashboard</a>
                         </Link>
-                        <Link href="/">
+                        <Link href="https://t.me/ConnectxProject">
                             <a>Discord</a>
                         </Link>
 
