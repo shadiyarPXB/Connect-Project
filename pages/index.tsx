@@ -150,12 +150,6 @@ const Home = () => {
     }, [bottomMinusBoxRef, topMinusBoxRef, callToActionRef]);
     return (
         <Layout>
-            <Head>
-                <link rel="Connect Favicon" href="../assets/images/favicon.ico" />
-                <title>
-                    CONNECTx Project - An ecosystem with unstoppable liquidity
-                </title>
-            </Head>
             {/* ==================================================================================
             ============ Hero section 
             ======================================================================================*/}
