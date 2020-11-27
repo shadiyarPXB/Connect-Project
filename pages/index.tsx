@@ -151,7 +151,10 @@ const Home = () => {
     return (
         <Layout>
             <Head>
-                <title>CONNECTx Project - An ecosystem with unstoppable liquidity</title>
+                <link rel="Connect Favicon" href="../assets/images/favicon.ico" />
+                <title>
+                    CONNECTx Project - An ecosystem with unstoppable liquidity
+                </title>
             </Head>
             {/* ==================================================================================
             ============ Hero section 
