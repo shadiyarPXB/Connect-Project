@@ -201,6 +201,9 @@ function Header() {
                         <Link href="https://t.me/ConnectxProject">
                             <a>Telegram</a>
                         </Link>
+                        <Link href="https://rubix-connectx.medium.com/">
+                            <a>Medium</a>
+                        </Link>
 
                         <CustomButton
                             as="a"
