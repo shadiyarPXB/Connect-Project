@@ -196,7 +196,7 @@ function Header() {
                             <a>Home</a>
                         </Link>
                         <Link href="/">
-                            <a onClick={onClickHandler}>Menu</a>
+                            <a onClick={onClickHandler}>Dashboard (Menu)</a>
                         </Link>
                         <Link href="https://t.me/ConnectxProject">
                             <a>Telegram</a>
