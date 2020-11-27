@@ -151,17 +151,7 @@ const Home = () => {
     return (
         <Layout>
             <Head>
-            <title>CONNECTx Project - An ecosystem with unstoppable liquidity</title>
-
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-60P3V7HRBX"></script>
-            <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-60P3V7HRBX');
-            </script>
+                <title>CONNECTx Project - An ecosystem with unstoppable liquidity</title>
             </Head>
             {/* ==================================================================================
             ============ Hero section 
