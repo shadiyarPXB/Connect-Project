@@ -4,7 +4,6 @@ import NProgress from 'nprogress';
 import Router from 'next/router';
 import 'nprogress/nprogress.css';
 import '../styles/globals.css';
-import Head from 'next/head';
 
 //Binding events.
 Router.events.on('routeChangeStart', () => NProgress.start());
@@ -44,15 +43,6 @@ const customTheme = {
 function MyApp({ Component, pageProps }) {
     return (
         <ThemeProvider theme={customTheme}>
-            <Head>
-                <link
-                    rel="Connect Favicon"
-                    href="../assets/images/favicon.ico"
-                />
-                <title>
-                    CONNECTx Project - An ecosystem with unstoppable liquidity
-                </title>
-            </Head>
             <BaseStyles>
                 <Component {...pageProps} />
             </BaseStyles>

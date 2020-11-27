@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
+const googleTrackingId = '';
 class MyDocument extends Document {
     static async getInitialProps(ctx) {
         const sheet = new ServerStyleSheet();
@@ -38,6 +39,11 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <link rel="Connect Favicon" href="./favicon.ico" />
+                    <title>
+                        CONNECTx Project - An ecosystem with unstoppable
+                        liquidity
+                    </title>
                     <link
                         href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
                         rel="stylesheet"
@@ -46,8 +52,21 @@ class MyDocument extends Document {
                         rel="stylesheet"
                         href="https://use.typekit.net/zrp8rvq.css"
                     />
-
                     <script src="https://use.fontawesome.com/a4424c943f.js" />
+                    <script
+                        async
+                        src="https://www.googletagmanager.com/gtag/js?id=${YOUR_TRACKING_ID}"
+                    ></script>
+                    <script
+                        async
+                        dangerouslySetInnerHTML={{
+                            __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', ${googleTrackingId});`,
+                        }}
+                    />
                 </Head>
                 <body>
                     <Main />
