@@ -17,6 +17,7 @@ import TabBox from '../components/TabBox/TabBox';
 import logos from '../assets/images/logos.png';
 import CalculatedText from '../components/CalculatedText/CalculatedText';
 import getTimeRemaining from '../utils/getTimeRemaining';
+import Head from 'next/head';
 
 // Images
 import rubix from '../assets/images/rubix.png';
@@ -149,6 +150,19 @@ const Home = () => {
     }, [bottomMinusBoxRef, topMinusBoxRef, callToActionRef]);
     return (
         <Layout>
+            <Head>
+            <title>CONNECTx Project - An ecosystem with unstoppable liquidity</title>
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-60P3V7HRBX"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-60P3V7HRBX');
+            </script>
+            </Head>
             {/* ==================================================================================
             ============ Hero section 
             ======================================================================================*/}
@@ -284,10 +298,14 @@ const Home = () => {
                         mt={['20px', '20px', '20px']}
                     >
                         <Text.p mt={0} fontSize={[0, 0, 2]}>
-                            CONNECTx, Connect, and Rubix are DAO tokens and governed by community. CONNECTx is only obtainable through liquidity mining.
+                            CONNECTx, Connect, and Rubix are DAO tokens and
+                            governed by community. CONNECTx is only obtainable
+                            through liquidity mining.
                         </Text.p>
                         <Text.p mt={0} fontSize={[0, 0, 2]}>
-                        Every member who has enough tokens to vote can influence and suggest ideas which will have an impact on the network.
+                            Every member who has enough tokens to vote can
+                            influence and suggest ideas which will have an
+                            impact on the network.
                         </Text.p>
                     </Column>
                 </Container>
@@ -676,8 +694,15 @@ const Home = () => {
                                                 fontSize={['14px', '14px', 1]}
                                                 color="#535353"
                                             >
-                                                <strong>Connect public bonused presale</strong>{' '}
-                                                will take place on November 27th, 2020 15:00 UTC. We will be giving extra bonus with up to 300 CONNECTx (CTx) for first round participants!!!
+                                                <strong>
+                                                    Connect public bonused
+                                                    presale
+                                                </strong>{' '}
+                                                will take place on November
+                                                27th, 2020 15:00 UTC. We will be
+                                                giving extra bonus with up to
+                                                300 CONNECTx (CTx) for first
+                                                round participants!!!
                                             </Text.p>
                                         </Box>
                                     </Flex>
@@ -751,7 +776,9 @@ const Home = () => {
                                         mt: '30px',
                                     }}
                                 >
-                                    ConnectX tokens will be obtainable through liquidity mining and liquidity providing on uniswap.
+                                    ConnectX tokens will be obtainable through
+                                    liquidity mining and liquidity providing on
+                                    uniswap.
                                 </TabBox>
                                 <TabBox
                                     title="I heard there's a presale bonus, how can I claim it?"
@@ -760,7 +787,9 @@ const Home = () => {
                                         mt: '30px',
                                     }}
                                 >
-                                    The process of claiming your bonus will be automatic. It will be sent to your wallet at the end of the transaction.
+                                    The process of claiming your bonus will be
+                                    automatic. It will be sent to your wallet at
+                                    the end of the transaction.
                                 </TabBox>
                                 <TabBox
                                     title="Do you plan on listing on more exchanges?"
@@ -769,7 +798,9 @@ const Home = () => {
                                         mt: '30px',
                                     }}
                                 >
-                                    In the beginning we will list our tokens on Uniswap and as we grow, we will get listed on more exchanges.
+                                    In the beginning we will list our tokens on
+                                    Uniswap and as we grow, we will get listed
+                                    on more exchanges.
                                 </TabBox>
                             </Box>
                             <Box width={[1, 1, '47%']}>
@@ -780,7 +811,9 @@ const Home = () => {
                                         mt: '30px',
                                     }}
                                 >
-                                    Every member who has enough tokens to vote can influence and suggest ideas which will have an impact on the network.
+                                    Every member who has enough tokens to vote
+                                    can influence and suggest ideas which will
+                                    have an impact on the network.
                                 </TabBox>
                                 <TabBox
                                     title="How will the team allocate the presale funds?"
@@ -789,7 +822,10 @@ const Home = () => {
                                         mt: '30px',
                                     }}
                                 >
-                                    The team will be using 60% of the presale funds to provide liquidity which will be locked for 365 days. This step will prevent the team from rug pulling
+                                    The team will be using 60% of the presale
+                                    funds to provide liquidity which will be
+                                    locked for 365 days. This step will prevent
+                                    the team from rug pulling
                                 </TabBox>
                             </Box>
                         </Flex>
