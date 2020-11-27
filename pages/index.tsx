@@ -571,7 +571,7 @@ const Home = () => {
                                         fontWeight="500"
                                         mb={['10px', '10px', '40px']}
                                     >
-                                        Prescale &amp; Calculator
+                                        Presale &amp; Calculator
                                     </CustomHeading>
                                     <Flex
                                         flexWrap="wrap"
