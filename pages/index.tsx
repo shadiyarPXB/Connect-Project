@@ -119,7 +119,7 @@ const Input = styled.input`
 
 // count Down Date
 // year, month[0-11], day, hour , minute , second
-const endTime = new Date(2020, 10, 27, 20, 10, 0);
+const endTime = new Date(2020, 10, 29, 20, 10, 0);
 const Home = () => {
     const bottomMinusBoxRef = useRef(null);
     const topMinusBoxRef = useRef(null);
@@ -780,7 +780,7 @@ const Home = () => {
                                         mt: '30px',
                                     }}
                                 >
-                                    Answer: Every member who has enough tokens to vote can influence and suggest ideas which will have an impact on the network.
+                                    Every member who has enough tokens to vote can influence and suggest ideas which will have an impact on the network.
                                 </TabBox>
                                 <TabBox
                                     title="How will the team allocate the presale funds?"
