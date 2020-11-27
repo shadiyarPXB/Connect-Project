@@ -168,7 +168,7 @@ const Home = () => {
                                 lineHeight={'copy'}
                                 mb={[8]}
                             >
-                                Welcome to CONNECTx Project
+                                Welcome to CONNECTx DAO Project
                             </CustomHeading>
                             <Text.p lineHeight={1.7} fontSize={[0, 0, 2]}>
                                 Stake Connect, Connectx, Rubix UNI-LP tokens to
