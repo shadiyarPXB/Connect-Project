@@ -40,7 +40,6 @@ const customTheme = {
     },
 };
 
-
 function MyApp({ Component, pageProps }) {
     return (
         <ThemeProvider theme={customTheme}>
