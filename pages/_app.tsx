@@ -4,8 +4,6 @@ import NProgress from 'nprogress';
 import Router from 'next/router';
 import 'nprogress/nprogress.css';
 import '../styles/globals.css';
-import Document, { Html, Head, Main, NextScript } from "next/document"
-
 
 //Binding events.
 Router.events.on('routeChangeStart', () => NProgress.start());
@@ -42,16 +40,10 @@ const customTheme = {
     },
 };
 
+
 function MyApp({ Component, pageProps }) {
     return (
         <ThemeProvider theme={customTheme}>
-            <Head>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `[G-60P3V7HRBX]`
-            }}
-          />
-        </Head>
             <BaseStyles>
                 <Component {...pageProps} />
             </BaseStyles>
